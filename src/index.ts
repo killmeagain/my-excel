@@ -1,10 +1,7 @@
-import "./scss/index.scss";
-console.log("hello");
-
-let i: number = 2;
+import './scss/index.scss';
 
 async function start() {
-  await Promise.resolve();
+    await Promise.resolve('async working');
 }
 
-start();
+start().then(() => console.log('hello'));
