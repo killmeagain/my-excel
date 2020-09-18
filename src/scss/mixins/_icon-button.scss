@@ -1,0 +1,28 @@
+@mixin icon-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  color: $darkShadeGray;
+  padding: 8px;
+
+  outline: none;
+
+  & .material-icons {
+    font-size: 28px;
+  }
+
+  &:hover,
+  &:focus{
+    background-color: rgba(175, 175, 175, 0.3);
+  }
+
+
+  &:active {
+    color: $green;
+    border-color: $green;
+  }
+}

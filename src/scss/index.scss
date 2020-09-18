@@ -1,4 +1,27 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "~normalize.css";
+@import "./vars";
+@import "./mixins/mixins";
+@import "./components/excel-table/table-header/table-header";
+@import "./components/excel-table/table-toolbar/table-toolbar";
+@import "./components/excel-table/excel-table";
+
+* {
     margin: 0;
-    background-color: red;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }

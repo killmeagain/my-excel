@@ -1,0 +1,9 @@
+&__input {
+  width: 100%;
+  border: none;
+  outline: blue;
+  @include middleSize;
+  height: 40px;
+
+  padding: 0 10px;
+}

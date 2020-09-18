@@ -1,0 +1,11 @@
+&__label {
+  width: 50px;
+  @include middleSize;
+  font-style: italic;
+  color: $darkShadeGray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-right: 1px solid $darkShadeFourth;
+}

@@ -1,0 +1,10 @@
+.table-header {
+
+  padding: 10px 0;
+
+  @import 'src/scss/components/excel-table/table-header/__container';
+  @import 'src/scss/components/excel-table/table-header/__flex-container';
+  @import 'src/scss/components/excel-table/table-header/__input';
+  @import 'src/scss/components/excel-table/table-header/__button/__button';
+  @import 'src/scss/components/excel-table/table-header/__actions';
+}
